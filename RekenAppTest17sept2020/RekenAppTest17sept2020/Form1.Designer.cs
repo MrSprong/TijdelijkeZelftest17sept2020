@@ -28,13 +28,44 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnGoTspr = new System.Windows.Forms.Button();
+            this.txbTextTspr = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btnGoTspr
+            // 
+            this.btnGoTspr.Location = new System.Drawing.Point(12, 12);
+            this.btnGoTspr.Name = "btnGoTspr";
+            this.btnGoTspr.Size = new System.Drawing.Size(75, 23);
+            this.btnGoTspr.TabIndex = 0;
+            this.btnGoTspr.Text = "Go";
+            this.btnGoTspr.UseVisualStyleBackColor = true;
+            // 
+            // txbTextTspr
+            // 
+            this.txbTextTspr.Location = new System.Drawing.Point(93, 14);
+            this.txbTextTspr.Name = "txbTextTspr";
+            this.txbTextTspr.Size = new System.Drawing.Size(100, 20);
+            this.txbTextTspr.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(203, 46);
+            this.Controls.Add(this.txbTextTspr);
+            this.Controls.Add(this.btnGoTspr);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnGoTspr;
+        private System.Windows.Forms.TextBox txbTextTspr;
     }
 }
 

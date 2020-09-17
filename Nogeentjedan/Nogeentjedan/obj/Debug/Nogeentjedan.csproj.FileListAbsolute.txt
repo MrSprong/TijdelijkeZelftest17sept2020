@@ -1,0 +1,9 @@
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\bin\Debug\Nogeentjedan.exe.config
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\bin\Debug\Nogeentjedan.exe
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\bin\Debug\Nogeentjedan.pdb
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\obj\Debug\Nogeentjedan.csprojAssemblyReference.cache
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\obj\Debug\Nogeentjedan.Properties.Resources.resources
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\obj\Debug\Nogeentjedan.csproj.GenerateResource.cache
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\obj\Debug\Nogeentjedan.csproj.CoreCompileInputs.cache
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\obj\Debug\Nogeentjedan.exe
+C:\OwnProjects\GitKraken\TijdelijkeZelftest17sept2020\Nogeentjedan\Nogeentjedan\obj\Debug\Nogeentjedan.pdb

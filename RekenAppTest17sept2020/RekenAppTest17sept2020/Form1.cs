@@ -31,5 +31,17 @@ namespace RekenAppTest17sept2020
             cldColorTspr.ShowDialog();
             this.BackColor = cldColorTspr.Color;
         }
+
+        private void cbxScreenSizeTspr_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbxScreenSizeTspr.Checked)
+            {
+                this.Width = 300;
+            }
+            else
+            {
+                this.Width = 233;
+            }
+        }
     }
 }

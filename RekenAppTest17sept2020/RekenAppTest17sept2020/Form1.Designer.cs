@@ -32,6 +32,7 @@
             this.txbTextTspr = new System.Windows.Forms.TextBox();
             this.btnColorTspr = new System.Windows.Forms.Button();
             this.cldColorTspr = new System.Windows.Forms.ColorDialog();
+            this.cbxScreenSizeTspr = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnGoTspr
@@ -61,11 +62,22 @@
             this.btnColorTspr.UseVisualStyleBackColor = true;
             this.btnColorTspr.Click += new System.EventHandler(this.btnColorTspr_Click);
             // 
+            // cbxScreenSizeTspr
+            // 
+            this.cbxScreenSizeTspr.AutoSize = true;
+            this.cbxScreenSizeTspr.Location = new System.Drawing.Point(200, 17);
+            this.cbxScreenSizeTspr.Name = "cbxScreenSizeTspr";
+            this.cbxScreenSizeTspr.Size = new System.Drawing.Size(15, 14);
+            this.cbxScreenSizeTspr.TabIndex = 3;
+            this.cbxScreenSizeTspr.UseVisualStyleBackColor = true;
+            this.cbxScreenSizeTspr.CheckedChanged += new System.EventHandler(this.cbxScreenSizeTspr_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(203, 72);
+            this.ClientSize = new System.Drawing.Size(217, 72);
+            this.Controls.Add(this.cbxScreenSizeTspr);
             this.Controls.Add(this.btnColorTspr);
             this.Controls.Add(this.txbTextTspr);
             this.Controls.Add(this.btnGoTspr);
@@ -82,6 +94,7 @@
         private System.Windows.Forms.TextBox txbTextTspr;
         private System.Windows.Forms.Button btnColorTspr;
         private System.Windows.Forms.ColorDialog cldColorTspr;
+        private System.Windows.Forms.CheckBox cbxScreenSizeTspr;
     }
 }
 

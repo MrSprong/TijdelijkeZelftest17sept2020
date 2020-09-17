@@ -30,6 +30,8 @@
         {
             this.btnGoTspr = new System.Windows.Forms.Button();
             this.txbTextTspr = new System.Windows.Forms.TextBox();
+            this.btnColorTspr = new System.Windows.Forms.Button();
+            this.cldColorTspr = new System.Windows.Forms.ColorDialog();
             this.SuspendLayout();
             // 
             // btnGoTspr
@@ -49,11 +51,22 @@
             this.txbTextTspr.Size = new System.Drawing.Size(100, 20);
             this.txbTextTspr.TabIndex = 1;
             // 
+            // btnColorTspr
+            // 
+            this.btnColorTspr.Location = new System.Drawing.Point(12, 41);
+            this.btnColorTspr.Name = "btnColorTspr";
+            this.btnColorTspr.Size = new System.Drawing.Size(181, 23);
+            this.btnColorTspr.TabIndex = 2;
+            this.btnColorTspr.Text = "Color";
+            this.btnColorTspr.UseVisualStyleBackColor = true;
+            this.btnColorTspr.Click += new System.EventHandler(this.btnColorTspr_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(203, 46);
+            this.ClientSize = new System.Drawing.Size(203, 72);
+            this.Controls.Add(this.btnColorTspr);
             this.Controls.Add(this.txbTextTspr);
             this.Controls.Add(this.btnGoTspr);
             this.Name = "Form1";
@@ -67,6 +80,8 @@
 
         private System.Windows.Forms.Button btnGoTspr;
         private System.Windows.Forms.TextBox txbTextTspr;
+        private System.Windows.Forms.Button btnColorTspr;
+        private System.Windows.Forms.ColorDialog cldColorTspr;
     }
 }
 

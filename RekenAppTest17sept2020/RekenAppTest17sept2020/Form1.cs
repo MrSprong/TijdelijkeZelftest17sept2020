@@ -25,5 +25,11 @@ namespace RekenAppTest17sept2020
             textTspr = Convert.ToString(txbTextTspr.Text);
             MessageBox.Show(textTspr);
         }
+
+        private void btnColorTspr_Click(object sender, EventArgs e)
+        {
+            cldColorTspr.ShowDialog();
+            this.BackColor = cldColorTspr.Color;
+        }
     }
 }

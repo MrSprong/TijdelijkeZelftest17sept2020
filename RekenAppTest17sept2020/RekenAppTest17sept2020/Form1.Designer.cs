@@ -40,6 +40,7 @@
             this.btnGoTspr.TabIndex = 0;
             this.btnGoTspr.Text = "Go";
             this.btnGoTspr.UseVisualStyleBackColor = true;
+            this.btnGoTspr.Click += new System.EventHandler(this.btnGoTspr_Click);
             // 
             // txbTextTspr
             // 
